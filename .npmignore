@@ -1,0 +1,5 @@
+src/
+tsconfig.json
+ng-package.json
+node_modules/
+/dist

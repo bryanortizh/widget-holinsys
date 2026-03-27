@@ -1,0 +1,13 @@
+<main class="container">
+  <h1>Widget Holinsys - Demo</h1>
+
+  <nav class="menu">
+    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Inicio</a>
+    <a routerLink="/deviceid" routerLinkActive="active">Device ID</a>
+    <a routerLink="/detail-builder" routerLinkActive="active">Detail Builder</a>
+  </nav>
+
+  <section class="content">
+    <router-outlet></router-outlet>
+  </section>
+</main>

@@ -1,0 +1,35 @@
+:host {
+	display: block;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 24px;
+}
+
+.menu {
+	display: flex;
+	gap: 16px;
+	margin-bottom: 20px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #0f172a;
+	padding: 8px 10px;
+	border: 1px solid #cbd5e1;
+	border-radius: 6px;
+}
+
+.menu a.active {
+	border-color: #0ea5e9;
+	color: #0369a1;
+}
+
+.content {
+	border: 1px solid #e2e8f0;
+	border-radius: 8px;
+	padding: 16px;
+}
